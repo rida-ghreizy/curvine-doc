@@ -150,6 +150,9 @@ Curvine 底层存储支持对接 OSS、HDFS、S3、MinIO 等多种后端。默�
 | `opendal-s3` | 通过 OpenDAL 对接 S3 |
 | `opendal-gcs` | 通过 OpenDAL 对接 Google Cloud Storage |
 | `opendal-azblob` | 通过 OpenDAL 对接 Azure Blob |
+| `opendal-hdfs-native` | 通过 OpenDAL 的纯 Rust HDFS 客户端（`hdfs-native`，无需 JVM）对接 HDFS |
+| `opendal-cos` | 通过 OpenDAL 对接腾讯云 COS |
+| `cosn` | 通过 Hadoop COSN 连接器对接腾讯云 COS（`cosn://`；需要 libhdfs、JVM 和 `hadoop-cos` jar） |
 
 
 :::warning

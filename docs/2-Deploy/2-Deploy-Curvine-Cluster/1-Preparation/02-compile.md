@@ -149,6 +149,9 @@ Supported parameters:
 | opendal-azblob  | Use OpenDAL for Azure Blob                 |
 | opendal-webhdfs | Use OpenDAL WebHDFS                        |
 | opendal-hdfs    | Use the native HDFS client (includes JNI)  |
+| opendal-hdfs-native | Use OpenDAL's pure-Rust HDFS client (`hdfs-native`, no JVM) |
+| opendal-cos     | Use OpenDAL for Tencent Cloud COS          |
+| cosn            | Use the Hadoop COSN connector for Tencent Cloud COS (`cosn://`; needs libhdfs, a JVM and the `hadoop-cos` jar) |
 | oss-hdfs        | Use JindoSDK for Alibaba Cloud OSS-HDFS    |
 
 
